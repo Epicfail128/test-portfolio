@@ -1,5 +1,32 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: silver;
+}
+
+.header {
+    background-color: #F2CEDA;
+}
+
+.container {
+    flex-direction: row;
+}
+
+.logo {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+
+    justify-content: center;
+}
+
+.li-menu {
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
 }
