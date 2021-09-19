@@ -17,12 +17,11 @@
 
 .menu {
     display: flex;
-
     justify-content: center;
+    list-style-type: none;
 }
 
 .li-menu {
-    list-style-type: none;
     margin-right: 40px;
 }
 
