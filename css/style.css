@@ -3,8 +3,18 @@
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
 .header {
     background-color: #F2CEDA;
+}
+
+.nav-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
@@ -13,19 +23,29 @@
 
 .logo {
     display: flex;
+    width: 79px;
+    height: 79px;
+    margin-right: 266px;
 }
 
 .menu {
     display: flex;
     justify-content: center;
     list-style-type: none;
+    margin-right: 172px;
 }
 
 .li-menu {
     margin-right: 40px;
+    color: #150101;
 }
 
 .button {
     display: flex;
     justify-content: flex-end;
+    color: #fff;
+    list-style-type: none;
+    background-color: #D23166;
+    border-radius: 5px;
+    padding: 6px 12px;
 }
