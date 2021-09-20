@@ -35,6 +35,17 @@ a{
     margin-right: 172px;
 }
 
+.active-link {
+    font-weight: 700;
+    color: #D23166!important;
+}
+
+.li-menu:hover {
+    color: #D23166;
+    transition: all 0.3s ease;
+}
+
+
 .li-menu {
     margin-right: 40px;
     color: #150101;
